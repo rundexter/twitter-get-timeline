@@ -1,0 +1,34 @@
+/*
+ * Metadata describing the module operation
+ */
+{
+    "inputs": [
+        {
+            "id": "count",
+            "title":"count"
+        },
+        {
+          "id": "since_id",
+          "title":"since_id"
+        },
+        {
+          "id": "max_id",
+          "title":"max_id"
+        },
+        {
+          "id": "exclude_replies",
+          "title":"exclude_replies"
+        }
+    ],
+    "outputs": [
+        {
+            "id": "tweets",
+            "title":"tweets"
+        }
+    ],
+    "providers": [{
+        "name": "twitter"
+    }],
+    "icon": "twitter",
+    "title": "Twitter Get Timeline"
+}

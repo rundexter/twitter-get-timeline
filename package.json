@@ -1,0 +1,13 @@
+{
+  "name": "twitter-get-timeline",
+  "version": "0.0.1",
+  "description": "Returns a collection of the most recent Tweets and retweets posted by the authenticating user and the users they follow",
+  "main": "index.js",
+  "author": "Run Dexter, Inc",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "lodash": "^3.10.1",
+    "twit": "^2.2.3"
+  }
+}
