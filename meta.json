@@ -4,6 +4,10 @@
 {
     "inputs": [
         {
+            "id": "user_id",
+            "title": "User ID"
+        },
+        {
             "id": "count",
             "title":"count"
         },
