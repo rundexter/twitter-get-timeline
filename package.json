@@ -1,7 +1,7 @@
 {
   "name": "twitter-get-timeline",
   "version": "0.0.1",
-  "description": "Returns a collection of the most recent Tweets and retweets posted by the authenticating user and the users they follow",
+  "description": "Returns a collection of the most recent Tweets and retweets posted by the specified user.",
   "main": "index.js",
   "author": "Run Dexter, Inc",
   "license": "MIT",
