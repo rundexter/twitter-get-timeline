@@ -22,8 +22,17 @@ module.exports = {
                 // if error - send message
                 this.fail(error);
             } else {
-                // return befriendedInfo
-                this.complete({tweets: listTweets});
+                var results = [ ];
+                listTweets.forEach( function( tweet ) {
+                    results.push( {
+                        id_str:      tweet.id_str,
+                        entities:    tweet.entities,
+                        source:      tweet.source,
+                        text:        tweet.text,
+                        source:      tweet.source
+                    } );
+                } );
+                this.complete( results );
             }
         }.bind(this));
     }

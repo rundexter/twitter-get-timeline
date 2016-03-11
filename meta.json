@@ -26,8 +26,24 @@
     ],
     "outputs": [
         {
-            "id": "tweets",
-            "title":"tweets"
+            "id": "id_str",
+            "title":"ID"
+        },
+        {
+            "id": "entities",
+            "title": "entities"
+        },
+        {
+            "id": "source",
+            "title": "HTML source"
+        },
+        {
+            "id": "text",
+            "title": "Text"
+        },
+        {
+            "id": "user",
+            "title": "User"
         }
     ],
     "providers": [{
