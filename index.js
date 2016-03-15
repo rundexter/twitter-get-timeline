@@ -29,7 +29,8 @@ module.exports = {
                         entities:    tweet.entities,
                         source:      tweet.source,
                         text:        tweet.text,
-                        source:      tweet.source
+                        source:      tweet.source,
+                        user:        tweet.user
                     } );
                 } );
                 this.complete( results );
